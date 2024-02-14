@@ -30,9 +30,9 @@
         </div>
       </section>
       <!-- Play Ground -->
-      <section class="play-ground">
+      <section class="play-ground hidden">
         <div class="flex flex-col items-center gap-20 pt-20">
-          <!-- artboard(screen) -->
+         <!-- screen -->
           <div class="artboard artboard-horizontal phone-5 border-[20px] rounded-2xl border-[#010313cc] bg-[#ffffffb3]">1024×320
             <div class="flex justify-center">
               <p class=" px-6 pb-2 bg-[#293D41] rounded-b-xl text-white">Don't watch keyboard  while playing...</p>
@@ -93,7 +93,17 @@
           </div>
         </div>
       </section>
-      <section class="score"></section>
+      <!-- score -->
+      <section class="score flex justify-center items-center min-h-screen">
+        <div class="text-white text-center space-y-6 bg-[#ffffff33] p-4 rounded-lg">
+          <h1 class="text-8xl">
+            <span class="font-bold">Score :</span>
+            <span>14</span>
+          </h1>
+          <button class="btn bg-white text-[#010313] text-2xl">Play Again</button>
+          <p class="text-xl">Practice will make you Pro</p>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
